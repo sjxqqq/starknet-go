@@ -720,7 +720,7 @@ func mock_starknet_traceTransaction(result interface{}, method string, args ...i
 		return &RPCError{
 			code:    10,
 			message: "No trace available for transaction",
-			data:    TransactionRejected,
+			//data:    TransactionRejected,
 		}
 	default:
 		return ErrInvalidTxnHash

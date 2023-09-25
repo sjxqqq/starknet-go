@@ -3,7 +3,7 @@ module account
 go 1.18
 
 require (
-	github.com/sjxqqq/starknet-go v0.2.1-0.20220620163912-1db2ca279608
+	github.com/sjxqqq/starknet-go v1.0.1
 	github.com/ethereum/go-ethereum v1.10.26
 	github.com/joho/godotenv v1.4.0
 )

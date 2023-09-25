@@ -54,7 +54,7 @@ func TestTransactionTrace(t *testing.T) {
 				ExpectedError: &RPCError{
 					code:    10,
 					message: "No trace available for transaction",
-					data:    TransactionRejected,
+					//data:    TransactionRejected,
 				},
 			},
 		},
