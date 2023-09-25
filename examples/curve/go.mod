@@ -1,10 +1,10 @@
-module github.com/NethermindEth/starknet.go/examples/curve
+module github.com/sjxqqq/starknet-go/examples/curve
 
 go 1.18
 
-replace github.com/NethermindEth/starknet.go => ../../
+replace github.com/sjxqqq/starknet-go => ../../
 
-require github.com/NethermindEth/starknet.go v0.3.1
+require github.com/sjxqqq/starknet-go v0.3.1
 
 require (
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e // indirect

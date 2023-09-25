@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/NethermindEth/starknet.go/types"
+	"github.com/sjxqqq/starknet-go/types"
 )
 
 func BenchmarkPedersenHash(b *testing.B) {

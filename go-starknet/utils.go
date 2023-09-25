@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/big"
 
-	starknetgo "github.com/NethermindEth/starknet.go"
-	"github.com/NethermindEth/starknet.go/types"
+	starknetgo "github.com/sjxqqq/starknet-go"
+	"github.com/sjxqqq/starknet-go/types"
 	"github.com/urfave/cli/v2"
 )
 

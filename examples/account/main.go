@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math/big"
 
-	starknetgo "github.com/NethermindEth/starknet.go"
-	"github.com/NethermindEth/starknet.go/gateway"
-	"github.com/NethermindEth/starknet.go/types"
+	starknetgo "github.com/sjxqqq/starknet-go"
+	"github.com/sjxqqq/starknet-go/gateway"
+	"github.com/sjxqqq/starknet-go/types"
 )
 
 var (

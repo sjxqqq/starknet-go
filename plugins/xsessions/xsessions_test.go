@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/NethermindEth/starknet.go/rpc"
 	ethrpc "github.com/ethereum/go-ethereum/rpc"
 	"github.com/joho/godotenv"
+	"github.com/sjxqqq/starknet-go/rpc"
 )
 
 // beforeEach checks the configuration and initializes it before running the script

@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"time"
 
-	starknetgo "github.com/NethermindEth/starknet.go"
-	ctypes "github.com/NethermindEth/starknet.go/types"
+	starknetgo "github.com/sjxqqq/starknet-go"
+	ctypes "github.com/sjxqqq/starknet-go/types"
 )
 
 type Session struct {

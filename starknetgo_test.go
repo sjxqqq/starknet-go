@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/NethermindEth/starknet.go/types"
+	"github.com/sjxqqq/starknet-go/types"
 )
 
 func BenchmarkSignatureVerify(b *testing.B) {

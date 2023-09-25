@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/NethermindEth/starknet.go/types"
+	"github.com/sjxqqq/starknet-go/types"
 )
 
 var knownEntries = []string{

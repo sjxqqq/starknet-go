@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/NethermindEth/starknet.go/contracts"
-	"github.com/NethermindEth/starknet.go/gateway"
+	"github.com/sjxqqq/starknet-go/contracts"
+	"github.com/sjxqqq/starknet-go/gateway"
 
-	"github.com/NethermindEth/starknet.go/types"
+	"github.com/sjxqqq/starknet-go/types"
 )
 
 // Start Devnet:

@@ -15,10 +15,10 @@ import (
 	"time"
 
 	"github.com/NethermindEth/juno/core/felt"
-	"github.com/NethermindEth/starknet.go/rpc"
-	"github.com/NethermindEth/starknet.go/types"
-	"github.com/NethermindEth/starknet.go/utils"
 	"github.com/joho/godotenv"
+	"github.com/sjxqqq/starknet-go/rpc"
+	"github.com/sjxqqq/starknet-go/types"
+	"github.com/sjxqqq/starknet-go/utils"
 )
 
 // RegisterClass

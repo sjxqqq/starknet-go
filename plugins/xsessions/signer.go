@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"math/big"
 
-	starknetgo "github.com/NethermindEth/starknet.go"
+	starknetgo "github.com/sjxqqq/starknet-go"
 
 	"github.com/NethermindEth/juno/core/felt"
-	"github.com/NethermindEth/starknet.go/types"
-	ctypes "github.com/NethermindEth/starknet.go/types"
-	"github.com/NethermindEth/starknet.go/utils"
+	"github.com/sjxqqq/starknet-go/types"
+	ctypes "github.com/sjxqqq/starknet-go/types"
+	"github.com/sjxqqq/starknet-go/utils"
 )
 
 var (

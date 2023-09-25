@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/NethermindEth/starknet.go/gateway"
+	"github.com/sjxqqq/starknet-go/gateway"
 	"github.com/urfave/cli/v2"
 )
 

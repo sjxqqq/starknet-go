@@ -3,7 +3,7 @@ package starknetgo
 import (
 	"testing"
 
-	"github.com/NethermindEth/starknet.go/types"
+	"github.com/sjxqqq/starknet-go/types"
 )
 
 func TestGeneral_SplitFactStr(t *testing.T) {

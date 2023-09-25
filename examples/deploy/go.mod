@@ -2,9 +2,9 @@ module deploy
 
 go 1.18
 
-replace github.com/NethermindEth/starknet.go => ../../
+replace github.com/sjxqqq/starknet-go => ../../
 
-require github.com/NethermindEth/starknet.go v0.3.1-0.20220909184134-51c4e68080bd
+require github.com/sjxqqq/starknet-go v0.3.1-0.20220909184134-51c4e68080bd
 
 require (
 	github.com/google/go-querystring v1.1.0 // indirect

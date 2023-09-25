@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/NethermindEth/juno/core/felt"
-	"github.com/NethermindEth/starknet.go/utils"
+	"github.com/sjxqqq/starknet-go/utils"
 	"github.com/test-go/testify/require"
 )
 
@@ -25,7 +25,7 @@ func TestTransactionTrace(t *testing.T) {
 
 		err = json.Unmarshal(expectedrespRaw, &rawjson)
 		require.NoError(t, err, "Error unmarshalling testdata TestTraceTransaction")
-	
+
 		txnTrace, err := json.Marshal(rawjson.Result)
 		require.NoError(t, err, "Error unmarshalling testdata TestTraceTransaction")
 		err = json.Unmarshal(txnTrace, &expectedResp)
@@ -51,10 +51,10 @@ func TestTransactionTrace(t *testing.T) {
 			testSetType{
 				TransactionHash: utils.TestHexToFelt(t, "0xf00d"),
 				ExpectedResp:    nil,
-				ExpectedError:   &RPCError{
-					code: 10,
+				ExpectedError: &RPCError{
+					code:    10,
 					message: "No trace available for transaction",
-					data: TransactionRejected,
+					data:    TransactionRejected,
 				},
 			},
 		},

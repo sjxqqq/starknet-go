@@ -12,8 +12,8 @@ import (
 	"strings"
 
 	"github.com/NethermindEth/juno/core/felt"
-	"github.com/NethermindEth/starknet.go/rpc"
-	"github.com/NethermindEth/starknet.go/types"
+	"github.com/sjxqqq/starknet-go/rpc"
+	"github.com/sjxqqq/starknet-go/types"
 )
 
 func (sg *Gateway) AccountNonce(ctx context.Context, address *felt.Felt) (*big.Int, error) {

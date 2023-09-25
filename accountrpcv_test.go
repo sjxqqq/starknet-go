@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/NethermindEth/juno/core/felt"
-	rpc "github.com/NethermindEth/starknet.go/rpc"
-	"github.com/NethermindEth/starknet.go/types"
-	"github.com/NethermindEth/starknet.go/utils"
+	rpc "github.com/sjxqqq/starknet-go/rpc"
+	"github.com/sjxqqq/starknet-go/types"
+	"github.com/sjxqqq/starknet-go/utils"
 )
 
 // TestAccountNonce tests the account Nonce

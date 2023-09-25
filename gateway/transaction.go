@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/NethermindEth/juno/core/felt"
-	"github.com/NethermindEth/starknet.go/types"
 	"github.com/google/go-querystring/query"
+	"github.com/sjxqqq/starknet-go/types"
 )
 
 type StarknetTransaction struct {

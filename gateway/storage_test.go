@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/NethermindEth/starknet.go/gateway"
+	"github.com/sjxqqq/starknet-go/gateway"
 	//	"github.com/google/go-cmp/cmp"
 )
 

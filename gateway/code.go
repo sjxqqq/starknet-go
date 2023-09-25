@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/NethermindEth/starknet.go/rpc"
+	"github.com/sjxqqq/starknet-go/rpc"
 )
 
 type Bytecode []string

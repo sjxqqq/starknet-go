@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/NethermindEth/starknet.go/types"
+	"github.com/sjxqqq/starknet-go/types"
 )
 
 // ChainID retrieves the current chain ID for transaction replay protection.

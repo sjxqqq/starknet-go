@@ -9,9 +9,9 @@ import (
 	"math/big"
 
 	"github.com/NethermindEth/juno/core/felt"
-	"github.com/NethermindEth/starknet.go/gateway"
-	"github.com/NethermindEth/starknet.go/rpc"
-	"github.com/NethermindEth/starknet.go/types"
+	"github.com/sjxqqq/starknet-go/gateway"
+	"github.com/sjxqqq/starknet-go/rpc"
+	"github.com/sjxqqq/starknet-go/types"
 )
 
 type DeclareOutput struct {
@@ -81,7 +81,6 @@ func (p *GatewayProvider) deployAccountAndWaitNoWallet(ctx context.Context, clas
 	}
 
 	if !receipt.Status.IsTransactionFinal() ||
-
 		receipt.Status == types.TransactionRejected {
 		return nil, fmt.Errorf("wrong status: %s", receipt.Status)
 	}

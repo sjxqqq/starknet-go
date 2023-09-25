@@ -6,7 +6,7 @@ import (
 	"net/url"
 
 	"github.com/NethermindEth/juno/core/felt"
-	"github.com/NethermindEth/starknet.go/rpc"
+	"github.com/sjxqqq/starknet-go/rpc"
 )
 
 // TODO: returns DeprecatedContractClass | SierraContractClass

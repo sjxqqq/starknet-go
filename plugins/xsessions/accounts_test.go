@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/NethermindEth/starknet.go/artifacts"
-	"github.com/NethermindEth/starknet.go/rpc"
-	ctypes "github.com/NethermindEth/starknet.go/types"
+	"github.com/sjxqqq/starknet-go/artifacts"
+	"github.com/sjxqqq/starknet-go/rpc"
+	ctypes "github.com/sjxqqq/starknet-go/types"
 )
 
 const (

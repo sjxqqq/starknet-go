@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	starknetgo "github.com/NethermindEth/starknet.go"
-	"github.com/NethermindEth/starknet.go/artifacts"
 	"github.com/joho/godotenv"
+	starknetgo "github.com/sjxqqq/starknet-go"
+	"github.com/sjxqqq/starknet-go/artifacts"
 )
 
 func TestGateway_InstallAccounts(t *testing.T) {

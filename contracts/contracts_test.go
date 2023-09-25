@@ -8,12 +8,12 @@ import (
 	"time"
 
 	"github.com/NethermindEth/juno/core/felt"
-	starknetgo "github.com/NethermindEth/starknet.go"
-	"github.com/NethermindEth/starknet.go/artifacts"
-	devtest "github.com/NethermindEth/starknet.go/test"
-	"github.com/NethermindEth/starknet.go/types"
-	"github.com/NethermindEth/starknet.go/utils"
 	"github.com/joho/godotenv"
+	starknetgo "github.com/sjxqqq/starknet-go"
+	"github.com/sjxqqq/starknet-go/artifacts"
+	devtest "github.com/sjxqqq/starknet-go/test"
+	"github.com/sjxqqq/starknet-go/types"
+	"github.com/sjxqqq/starknet-go/utils"
 )
 
 func TestGateway_InstallCounter(t *testing.T) {

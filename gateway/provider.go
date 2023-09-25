@@ -5,7 +5,7 @@ import (
 	"math/big"
 
 	"github.com/NethermindEth/juno/core/felt"
-	"github.com/NethermindEth/starknet.go/rpc"
+	"github.com/sjxqqq/starknet-go/rpc"
 )
 
 type GatewayProvider struct {

@@ -1,7 +1,7 @@
 package xsessions
 
 import (
-	ctypes "github.com/NethermindEth/starknet.go/types"
+	ctypes "github.com/sjxqqq/starknet-go/types"
 )
 
 var (

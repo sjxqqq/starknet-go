@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/NethermindEth/starknet.go/utils"
+	"github.com/sjxqqq/starknet-go/utils"
 )
 
 func TestDevnet_IsAlive(t *testing.T) {

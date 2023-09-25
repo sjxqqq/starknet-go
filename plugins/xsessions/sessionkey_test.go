@@ -11,10 +11,10 @@ import (
 	_ "embed"
 
 	"github.com/NethermindEth/juno/core/felt"
-	starknetgo "github.com/NethermindEth/starknet.go"
-	"github.com/NethermindEth/starknet.go/artifacts"
-	"github.com/NethermindEth/starknet.go/types"
-	"github.com/NethermindEth/starknet.go/utils"
+	starknetgo "github.com/sjxqqq/starknet-go"
+	"github.com/sjxqqq/starknet-go/artifacts"
+	"github.com/sjxqqq/starknet-go/types"
+	"github.com/sjxqqq/starknet-go/utils"
 )
 
 var sessionPluginCompiled = artifacts.PluginV0Compiled

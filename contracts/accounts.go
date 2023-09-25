@@ -10,11 +10,11 @@ import (
 	"os"
 
 	"github.com/NethermindEth/juno/core/felt"
-	starknetgo "github.com/NethermindEth/starknet.go"
-	"github.com/NethermindEth/starknet.go/artifacts"
-	"github.com/NethermindEth/starknet.go/gateway"
-	"github.com/NethermindEth/starknet.go/rpc"
-	"github.com/NethermindEth/starknet.go/utils"
+	starknetgo "github.com/sjxqqq/starknet-go"
+	"github.com/sjxqqq/starknet-go/artifacts"
+	"github.com/sjxqqq/starknet-go/gateway"
+	"github.com/sjxqqq/starknet-go/rpc"
+	"github.com/sjxqqq/starknet-go/utils"
 )
 
 type AccountManager struct {

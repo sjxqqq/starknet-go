@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/NethermindEth/juno/core/felt"
-	"github.com/NethermindEth/starknet.go/utils"
 	"github.com/google/go-cmp/cmp"
+	"github.com/sjxqqq/starknet-go/utils"
 	"github.com/test-go/testify/require"
 )
 

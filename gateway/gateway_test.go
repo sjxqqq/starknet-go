@@ -10,13 +10,13 @@ import (
 	"strings"
 	"testing"
 
-	starknetgo "github.com/NethermindEth/starknet.go"
-	"github.com/NethermindEth/starknet.go/gateway"
-	"github.com/NethermindEth/starknet.go/rpc"
-	"github.com/NethermindEth/starknet.go/test"
-	"github.com/NethermindEth/starknet.go/types"
-	"github.com/NethermindEth/starknet.go/utils"
 	"github.com/joho/godotenv"
+	starknetgo "github.com/sjxqqq/starknet-go"
+	"github.com/sjxqqq/starknet-go/gateway"
+	"github.com/sjxqqq/starknet-go/rpc"
+	"github.com/sjxqqq/starknet-go/test"
+	"github.com/sjxqqq/starknet-go/types"
+	"github.com/sjxqqq/starknet-go/utils"
 )
 
 // testConfiguration is a type that is used to configure tests

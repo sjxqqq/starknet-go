@@ -7,10 +7,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/NethermindEth/starknet.go/gateway"
-	"github.com/NethermindEth/starknet.go/rpc"
 	ethrpc "github.com/ethereum/go-ethereum/rpc"
 	"github.com/joho/godotenv"
+	"github.com/sjxqqq/starknet-go/gateway"
+	"github.com/sjxqqq/starknet-go/rpc"
 )
 
 var (
@@ -26,7 +26,7 @@ func TestMain(m *testing.M) {
 }
 
 type testConfiguration struct {
-	rpc     *rpc.Provider
+	rpc        *rpc.Provider
 	gateway    *gateway.GatewayProvider
 	RPCBaseURL string
 	GWBaseURL  string

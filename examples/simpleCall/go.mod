@@ -3,12 +3,12 @@ module account
 go 1.18
 
 require (
-	github.com/NethermindEth/starknet.go v0.2.1-0.20220620163912-1db2ca279608
+	github.com/sjxqqq/starknet-go v0.2.1-0.20220620163912-1db2ca279608
 	github.com/ethereum/go-ethereum v1.10.26
 	github.com/joho/godotenv v1.4.0
 )
 
-replace github.com/NethermindEth/starknet.go => ../../
+replace github.com/sjxqqq/starknet-go => ../../
 
 require (
 	github.com/NethermindEth/juno v0.3.1 // indirect

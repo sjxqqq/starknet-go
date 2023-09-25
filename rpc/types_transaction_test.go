@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/NethermindEth/starknet.go/utils"
+	"github.com/sjxqqq/starknet-go/utils"
 	"github.com/test-go/testify/require"
 )
 

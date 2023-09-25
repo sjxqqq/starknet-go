@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/NethermindEth/starknet.go/gateway"
-	"github.com/NethermindEth/starknet.go/types"
+	"github.com/sjxqqq/starknet-go/gateway"
+	"github.com/sjxqqq/starknet-go/types"
 )
 
 func TestTransaction(t *testing.T) {
