@@ -33,3 +33,7 @@ func FeltToBigInt(f *felt.Felt) (*big.Int, bool) {
 func BigIntToFelt(big *big.Int) (*felt.Felt, error) {
 	return new(felt.Felt).SetString(big.String())
 }
+
+func BytesToFelt(bytes []byte) *felt.Felt {
+	return new(felt.Felt).SetBytes(bytes)
+}
